@@ -77,7 +77,7 @@ cp .env.example .env.local
 Sesuaikan nilai variabel berikut:
 ```env
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
-NEXT_PUBLIC_WHATSAPP_NUMBER=6281234567890
+NEXT_PUBLIC_WHATSAPP_NUMBER=6285795093442
 NEXT_PUBLIC_CONTACT_EMAIL=info@kenalibakat.id
 
 # Supabase (Opsional - jika ingin menyimpan pendaftaran ke database langsung)

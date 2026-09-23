@@ -28,7 +28,7 @@ export function Registration() {
   }>({ type: null, message: "" });
 
   const whatsappNumber =
-    process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "6281234567890";
+    process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "6285795093442";
 
   const {
     register,

@@ -4,7 +4,7 @@ import * as React from "react";
 import { MessageCircle } from "lucide-react";
 
 export function FloatingWhatsApp() {
-  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "6281234567890";
+  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "6285795093442";
   const defaultMessage =
     "Halo, saya tertarik untuk mengetahui informasi lebih lanjut mengenai asesmen Talents Mapping. Mohon informasi mengenai proses pendaftaran, jadwal, dan biaya.";
 

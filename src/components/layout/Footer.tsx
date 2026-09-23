@@ -4,7 +4,7 @@ import { Sparkles, Mail, Phone, ExternalLink } from "lucide-react";
 import { footerNavItems, legalNavItems } from "@/data/navigation";
 
 export function Footer() {
-  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "6281234567890";
+  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "6285795093442";
   const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL || "info@kenalibakat.id";
 
   return (
@@ -72,7 +72,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-accent-yellow transition-colors inline-flex items-center gap-1"
                 >
-                  WhatsApp Admin
+                  WhatsApp Admin (0857-9509-3442)
                   <ExternalLink className="w-3 h-3 opacity-70" />
                 </a>
               </li>
