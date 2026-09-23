@@ -4,6 +4,7 @@ import { AboutTalentsMapping } from "@/components/sections/AboutTalentsMapping";
 import { TalentExploration } from "@/components/sections/TalentExploration";
 import { Benefits } from "@/components/sections/Benefits";
 import { AssessmentProcess } from "@/components/sections/AssessmentProcess";
+import { SampleAssessmentResults } from "@/components/sections/SampleAssessmentResults";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { FAQ } from "@/components/sections/FAQ";
 import { Registration } from "@/components/sections/Registration";
@@ -28,6 +29,9 @@ export default function Home() {
 
       {/* 6. Proses Asesmen */}
       <AssessmentProcess />
+
+      {/* 7. Contoh Hasil Asesmen Talents Mapping */}
+      <SampleAssessmentResults />
 
       {/* 7. Testimoni (Sesuai PRD: disembunyikan sampai data testimoni asli tersedia) */}
       <Testimonials isEnabled={false} />

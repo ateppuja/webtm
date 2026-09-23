@@ -2,11 +2,10 @@ import { NavItem } from "@/types";
 
 export const navItems: NavItem[] = [
   { label: "Beranda", href: "#hero" },
-  { label: "Mengapa Bakat", href: "#why-talent" },
   { label: "Tentang", href: "#about" },
   { label: "Mengenal Bakat", href: "#talents" },
-  { label: "Manfaat", href: "#benefits" },
   { label: "Asesmen", href: "#assessment" },
+  { label: "Contoh Hasil", href: "#sample-results" },
   { label: "FAQ", href: "#faq" },
   { label: "Mulai Kenali Bakat", href: "#register", isCta: true },
 ];
@@ -16,6 +15,7 @@ export const footerNavItems = [
   { label: "Tentang", href: "#about" },
   { label: "Mengenal Bakat", href: "#talents" },
   { label: "Asesmen", href: "#assessment" },
+  { label: "Contoh Hasil", href: "#sample-results" },
   { label: "FAQ", href: "#faq" },
 ];
 

@@ -17,7 +17,7 @@ export function Header() {
       setIsScrolled(window.scrollY > 20);
 
       // Section spy
-      const sections = ["hero", "why-talent", "about", "talents", "benefits", "assessment", "faq", "register"];
+      const sections = ["hero", "why-talent", "about", "talents", "benefits", "assessment", "sample-results", "faq", "register"];
       const scrollPosition = window.scrollY + 120;
 
       for (const sectionId of sections) {
